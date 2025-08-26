@@ -27,7 +27,7 @@ git clone https://github.com/HiMaowie/Activity0826.git
 cd Activity0826
 ```
 
-2. Create a Virtual Environment
+## 2. Create a Virtual Environment
 python -m venv venv
 
 
@@ -47,7 +47,7 @@ macOS/Linux:
 
 source venv/bin/activate
 
-3. Install Dependencies
+## 3. Install Dependencies
 
 If a requirements.txt file is provided, run:
 
@@ -58,19 +58,19 @@ If not, install Django manually:
 
 pip install django
 
-4. Apply Migrations
+## 4. Apply Migrations
 
 Run the following to set up your database schema:
 
 python manage.py migrate
 
-5. Create a Superuser (for admin access)
+## 5. Create a Superuser (for admin access)
 python manage.py createsuperuser
 
 
 Follow the prompts to set up a username and password.
 
-6. Run the Development Server
+## 6. Run the Development Server
 python manage.py runserver
 
 
@@ -82,7 +82,7 @@ Tweet creation: http://127.0.0.1:8000/tweet/create/
 
 Admin panel: http://127.0.0.1:8000/admin/
 
-7. File & Directory Notes
+## 7. File & Directory Notes
 
 Tweets are created via /tweet/create/ and logged in the History app.
 
@@ -96,11 +96,11 @@ Database file (db.sqlite3)
 
 Cache files (__pycache__/)
 
-8. Stopping the Server
+## 8. Stopping the Server
 
 Press CTRL + C in the terminal where the server is running.
 
-9. Additional Notes
+## 9. Additional Notes
 
 If you add more packages, run:
 
